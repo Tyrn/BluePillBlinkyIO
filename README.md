@@ -1,1 +1,1 @@
-# An Arduino sandbox for ESP32 Bluetooth BLE
+# A PlatformIO Arduino sandbox for the Blue Pill

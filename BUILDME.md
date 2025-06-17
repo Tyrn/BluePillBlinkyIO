@@ -1,24 +1,24 @@
-# ESP32 on PlatformIO, arduino framework
+# The Blue Pill on PlatformIO, arduino framework
 
 ## Deploy and configure
 
 - Clone
 
 ```
-git clone git@github.com:Tyrn/BleHelloIO.git
+git clone git@github.com:Tyrn/BluePillBlinkyIO.git
 ```
 
 ```
-cd BleHelloIO
+cd BluePillBlinkyIO
 ```
 
-- Install platform (optional; `./configure.sh` is enough)
+- Install the necessary tools globally
 
 ```
-pio pkg install -p "platformio/espressif32"
+pio pkg install -gt platformio/tool-stm32duino
 ```
 
-- Configure, or reconfigure at will
+- Configure the project, or reconfigure at will
 
 ```
 ./configure.sh
